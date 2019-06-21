@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel='stylesheet' type='text/css' href="assets/css/style.css">
+    <title>Machine a Sous</title>
+    
+</head>
+<body>
+    
+               
+        <header>
+            <h1>Machine A Sous BY Antoine</h1>
+            <p>
+                Régles du jeu <br>
+
+                x3 identique = x100 mise ||
+                x2 identique = x2 mise ||
+                Différent = Perte de mise ||
+                x2 Taupes = Capital /1.5 ||
+                x3 Taupes = Capital /3 ||
+            </p>
+        </header>
+        <p id="erreur"></p>
+        <p id="sommeDepart">Capital : 100€</p>
+        <p id="gagne"></p>
+        <input type="number" name="mise" id="mise" min="1" value="1">
+        <button onclick="start()">Lancer</button>
+        <br/>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4" id="imgItem1"></div>
+                <div class="col-md-4" id="imgItem2"></div>
+                <div class="col-md-4" id="imgItem3"></div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <h2>BY A.G</h2>
+    </footer>
+    <script type="text/javascript" src="assets/js/script.js"></script>
+</body>
+</html>

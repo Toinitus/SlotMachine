@@ -39,9 +39,9 @@ function start()
 
     console.log(item1, item2, item3);
 
-    document.getElementById('imgItem1').innerHTML = "<img src='assets/img/"+item1+"' class='imgResize'>"; 
-    document.getElementById('imgItem2').innerHTML = "<img src='assets/img/"+item2+"' class='imgResize'>"; 
-    document.getElementById('imgItem3').innerHTML = "<img src='assets/img/"+item3+"' class='imgResize'>"; 
+    document.getElementById('imgItem1').innerHTML = "<img src='img/"+item1+"' class='imgResize'>"; 
+    document.getElementById('imgItem2').innerHTML = "<img src='img/"+item2+"' class='imgResize'>"; 
+    document.getElementById('imgItem3').innerHTML = "<img src='img/"+item3+"' class='imgResize'>"; 
 
     var nbTaupe = 0;
     nbTaupe += (item1 == "taupe.jpg")?(1):(0);
